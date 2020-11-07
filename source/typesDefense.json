@@ -1,0 +1,20 @@
+{
+    "Normal": {"immunes":["Ghost"],"weaknesses":["Fighting"],"strengths":[]},
+    "Fire": {"immunes":[],"weaknesses":["Water","Rock", "Ground"],"strengths":["Grass","Ice","Bug","Steel","Fire","Fairy"]},
+    "Water": {"immunes":[],"weaknesses":["Grass","Electric"],"strengths":["Fire","Steel","Water","Ice"]},
+    "Electric": {"immunes":[],"weaknesses":["Ground"],"strengths":["Flying","Steel","Electric"]},
+    "Grass": {"immunes":[],"weaknesses":["Fire","Ice","Poison","Flying","Bug"],"strengths":["Water","Ground","Grass","Electric"]},
+    "Ice": {"immunes":[],"weaknesses":["Fighting","Rock","Fire","Steel"],"strengths":["Ice"]},
+    "Fighting": {"immunes":[],"weaknesses":["Flying","Psychic","Fairy"],"strengths":["Rock","Dark","Bug"]},
+    "Poison": {"immunes":[],"weaknesses":["Psychic","Ground"],"strengths":["Grass","Fairy","Bug","Poison","Fighting"]},
+    "Ground": {"immunes":["Electric"],"weaknesses":["Water","Grass","Ice"],"strengths":["Poison","Rock"]},
+    "Flying": {"immunes":["Ground"],"weaknesses":["Electric","Rock","Ice"],"strengths":["Grass","Fighting","Bug"]},
+    "Psychic": {"immunes":[],"weaknesses":["Bug","Ghost","Dark"],"strengths":["Fighting","Psychic"]},
+    "Bug": {"immunes":[],"weaknesses":["Fire","Flying","Rock"],"strengths":["Grass","Fighting","Ground"]},
+    "Rock": {"immunes":[],"weaknesses":["Fighting","Ground","Steel","Water","Grass"],"strengths":["Fire","Normal","Flying","Poison"]},
+    "Ghost": {"immunes":["Normal","Fighting"],"weaknesses":["Dark","Ghost"],"strengths":["Poison","Bug"]},
+    "Dragon": {"immunes":[],"weaknesses":["Fairy","Dragon","Ice"],"strengths":["Fire","Water","Grass","Electric"]},
+    "Dark": {"immunes":["Psychic"],"weaknesses":["Fighting","Bug","Fairy"],"strengths":["Dark","Ghost"]},
+    "Steel": {"immunes":["Poison"],"weaknesses":["Fire","Fighting","Ground"],"strengths":["Ice","Rock","Fairy","Normal","Flying","Bug","Steel","Grass","Psychic","Dragon"]},
+    "Fairy": {"immunes":["Dragon"],"weaknesses":["Poison","Steel"],"strengths":["Fighting","Bug","Dark"]}
+}
