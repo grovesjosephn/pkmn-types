@@ -1,4 +1,4 @@
-// import React from 'react';
+// Import React from 'react';
 // import chalk from 'chalk';
 // import test from 'ava';
 // import {render} from 'ink-testing-library';

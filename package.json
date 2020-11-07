@@ -10,12 +10,14 @@
 		"build": "tsc",
 		"start": "npm run build && dist/cli.js Water Ice",
 		"pretest": "npm run build",
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"lint": "xo --fix"
 	},
 	"files": [
 		"dist/cli.js"
 	],
 	"dependencies": {
+		"husky": "^4.3.0",
 		"ink": "^3.0.8",
 		"meow": "^8.0.0",
 		"react": "^17.0.1",
@@ -48,6 +50,11 @@
 		"extends": "xo-react",
 		"rules": {
 			"react/prop-types": "off"
+		}
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run lint"
 		}
 	}
 }

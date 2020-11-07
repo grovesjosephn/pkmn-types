@@ -17,7 +17,7 @@ const cli = meow(`
 		Grass
 		Flying
 		Dragon
-`,);
+`);
 
 const [primary, secondary] = cli.input;
 render(<App primary={primary} secondary={secondary}/>);
